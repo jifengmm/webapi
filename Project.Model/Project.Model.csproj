@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Conditions\AreasCondition.cs" />
+    <Compile Remove="Conditions\AuthorizationsCondition.cs" />
+    <Compile Remove="Conditions\FuelConsumptionsCondition.cs" />
+    <Compile Remove="Conditions\MenusCondition.cs" />
+    <Compile Remove="Conditions\OperationLogCondition.cs" />
+    <Compile Remove="Conditions\ProductCondition.cs" />
+    <Compile Remove="Dtos\OperationLogDto.cs" />
+    <Compile Remove="Dtos\ProductDto.cs" />
+    <Compile Remove="OperationLog.cs" />
+    <Compile Remove="Product.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="6.10.6" />
+    <PackageReference Include="sqlSugarCore" Version="4.9.9.4" />
+  </ItemGroup>
+
+</Project>

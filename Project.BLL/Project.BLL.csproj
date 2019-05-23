@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="OperationLogService.cs" />
+    <Compile Remove="ProductService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Project.Core\Project.Core.csproj" />
+    <ProjectReference Include="..\Project.DAL\Project.DAL.csproj" />
+    <ProjectReference Include="..\Project.IBLL\Project.IBLL.csproj" />
+    <ProjectReference Include="..\Project.IDAL\Project.IDAL.csproj" />
+    <ProjectReference Include="..\Project.Model\Project.Model.csproj" />
+  </ItemGroup>
+
+</Project>

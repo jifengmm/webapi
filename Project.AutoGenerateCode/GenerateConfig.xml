@@ -1,0 +1,10 @@
+﻿<Dbs>
+  <Db Type="mysql" ConnectString="Server=localhost;Database=sp;Uid=root;Pwd=root;Charset=utf8;Allow User Variables=true;SslMode=None;">
+    <Table ClassName="Account">account</Table>
+    <Table ClassName="Word">word</Table>
+    <Table ClassName="Txt">txt</Table>
+    <Table ClassName="EmailConfig">email_config</Table>
+    <Table ClassName="FtpConfig">ftp_config</Table>
+    <Table ClassName="Achievement">achievement</Table>
+  </Db>
+</Dbs>
