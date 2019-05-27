@@ -29,6 +29,9 @@ namespace Project.Core.Mapping
 
             CreateMap<Achievement, AchievementDto>();
             CreateMap<AchievementDto, Achievement>();
+
+            CreateMap<Appointment, AppointmentDto>();
+            CreateMap<AppointmentDto, Appointment>();
         }
     }
 }

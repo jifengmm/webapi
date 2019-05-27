@@ -6,5 +6,6 @@
     <Table ClassName="EmailConfig">email_config</Table>
     <Table ClassName="FtpConfig">ftp_config</Table>
     <Table ClassName="Achievement">achievement</Table>
+    <Table ClassName="Appointment">appointment</Table>
   </Db>
 </Dbs>
